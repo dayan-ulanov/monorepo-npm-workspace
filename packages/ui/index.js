@@ -1,1 +1,0 @@
-export const Button = () => console.log("Shared Button");
