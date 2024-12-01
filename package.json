@@ -1,0 +1,18 @@
+{
+  "name": "monorepo-npm-workspace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev:next": "npm run dev --workspace=apps/next-app",
+    "dev:vite": "npm run dev --workspace=apps/vite-app",
+    "build": "npm run build --workspaces"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
